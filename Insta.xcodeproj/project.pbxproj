@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		2975F368CCF4407231EA0260 /* Pods_Insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667905AF65B859343BB23ABF /* Pods_Insta.framework */; };
 		DF0320CC1ECF1A6B00909BB3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0320CB1ECF1A6B00909BB3 /* LoginViewController.swift */; };
+		DF06CC3E1ED1A85700E9A297 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06CC3D1ED1A85700E9A297 /* UserCell.swift */; };
+		DF06CC401ED1AB4700E9A297 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06CC3F1ED1AB4700E9A297 /* UsersViewController.swift */; };
+		DF06CC421ED1ADDF00E9A297 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF06CC411ED1ADDF00E9A297 /* User.swift */; };
 		DF077B171ECE2E9300BD1511 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF077B161ECE2E9300BD1511 /* AppDelegate.swift */; };
 		DF077B1C1ECE2E9300BD1511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF077B1A1ECE2E9300BD1511 /* Main.storyboard */; };
 		DF077B1E1ECE2E9300BD1511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF077B1D1ECE2E9300BD1511 /* Assets.xcassets */; };
 		DF077B211ECE2E9300BD1511 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF077B1F1ECE2E9300BD1511 /* LaunchScreen.storyboard */; };
 		DF077B291ECE2EE800BD1511 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF077B281ECE2EE800BD1511 /* GoogleService-Info.plist */; };
 		DF077B2B1ECE2FB400BD1511 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF077B2A1ECE2FB400BD1511 /* SignupViewController.swift */; };
+		DF09D7DA1ED5A4A700CC3FD5 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF09D7D91ED5A4A700CC3FD5 /* UploadViewController.swift */; };
+		DF0FE0331ED74B9E00D4BD4B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FE0321ED74B9E00D4BD4B /* PostCell.swift */; };
+		DF0FE0351ED74D4100D4BD4B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FE0341ED74D4100D4BD4B /* Post.swift */; };
+		DF0FE0371ED74E4300D4BD4B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0FE0361ED74E4300D4BD4B /* FeedViewController.swift */; };
+		DF74DDB81ED98F8E00DF285B /* 000000702.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF74DDB71ED98F8E00DF285B /* 000000702.jpg */; };
+		DFFDD4401ED86B9E008DAB9F /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFDD43F1ED86B9E008DAB9F /* UIViewX.swift */; };
+		DFFDD4421ED86D8E008DAB9F /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFDD4411ED86D8E008DAB9F /* UIButtonX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,9 @@
 		7B16859E824CC704E95DE64E /* Pods-Insta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Insta/Pods-Insta.debug.xcconfig"; sourceTree = "<group>"; };
 		AFF234B1C8924E009C4B65BF /* Pods-Insta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Insta.release.xcconfig"; path = "Pods/Target Support Files/Pods-Insta/Pods-Insta.release.xcconfig"; sourceTree = "<group>"; };
 		DF0320CB1ECF1A6B00909BB3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DF06CC3D1ED1A85700E9A297 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		DF06CC3F1ED1AB4700E9A297 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		DF06CC411ED1ADDF00E9A297 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DF077B131ECE2E9300BD1511 /* Insta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF077B161ECE2E9300BD1511 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF077B1B1ECE2E9300BD1511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,6 +43,13 @@
 		DF077B221ECE2E9300BD1511 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF077B281ECE2EE800BD1511 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DF077B2A1ECE2FB400BD1511 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DF09D7D91ED5A4A700CC3FD5 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		DF0FE0321ED74B9E00D4BD4B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DF0FE0341ED74D4100D4BD4B /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		DF0FE0361ED74E4300D4BD4B /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		DF74DDB71ED98F8E00DF285B /* 000000702.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000000702.jpg; sourceTree = "<group>"; };
+		DFFDD43F1ED86B9E008DAB9F /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		DFFDD4411ED86D8E008DAB9F /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +101,17 @@
 				DF077B281ECE2EE800BD1511 /* GoogleService-Info.plist */,
 				DF077B221ECE2E9300BD1511 /* Info.plist */,
 				DF077B2A1ECE2FB400BD1511 /* SignupViewController.swift */,
+				DF74DDB71ED98F8E00DF285B /* 000000702.jpg */,
 				DF0320CB1ECF1A6B00909BB3 /* LoginViewController.swift */,
+				DF06CC3D1ED1A85700E9A297 /* UserCell.swift */,
+				DF06CC3F1ED1AB4700E9A297 /* UsersViewController.swift */,
+				DF06CC411ED1ADDF00E9A297 /* User.swift */,
+				DF09D7D91ED5A4A700CC3FD5 /* UploadViewController.swift */,
+				DF0FE0321ED74B9E00D4BD4B /* PostCell.swift */,
+				DF0FE0341ED74D4100D4BD4B /* Post.swift */,
+				DF0FE0361ED74E4300D4BD4B /* FeedViewController.swift */,
+				DFFDD43F1ED86B9E008DAB9F /* UIViewX.swift */,
+				DFFDD4411ED86D8E008DAB9F /* UIButtonX.swift */,
 			);
 			path = Insta;
 			sourceTree = "<group>";
@@ -157,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF74DDB81ED98F8E00DF285B /* 000000702.jpg in Resources */,
 				DF077B211ECE2E9300BD1511 /* LaunchScreen.storyboard in Resources */,
 				DF077B1E1ECE2E9300BD1511 /* Assets.xcassets in Resources */,
 				DF077B1C1ECE2E9300BD1511 /* Main.storyboard in Resources */,
@@ -219,9 +250,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF06CC3E1ED1A85700E9A297 /* UserCell.swift in Sources */,
+				DF09D7DA1ED5A4A700CC3FD5 /* UploadViewController.swift in Sources */,
+				DFFDD4401ED86B9E008DAB9F /* UIViewX.swift in Sources */,
+				DF0FE0371ED74E4300D4BD4B /* FeedViewController.swift in Sources */,
 				DF0320CC1ECF1A6B00909BB3 /* LoginViewController.swift in Sources */,
+				DF06CC421ED1ADDF00E9A297 /* User.swift in Sources */,
+				DF06CC401ED1AB4700E9A297 /* UsersViewController.swift in Sources */,
 				DF077B2B1ECE2FB400BD1511 /* SignupViewController.swift in Sources */,
+				DFFDD4421ED86D8E008DAB9F /* UIButtonX.swift in Sources */,
+				DF0FE0351ED74D4100D4BD4B /* Post.swift in Sources */,
 				DF077B171ECE2E9300BD1511 /* AppDelegate.swift in Sources */,
+				DF0FE0331ED74B9E00D4BD4B /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
